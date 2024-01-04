@@ -7,22 +7,33 @@
 
 import SwiftUI
 
-struct Exercicio {
-    var nome: String
+struct Exercise: Hashable {
+    let name: String
+    let imageName: String
+    
+    var image: Image {
+        Image(systemName: imageName)
+    }
 }
 
 struct AbdomeView: View {
     
-    let exercicios = [
-        Exercicio(nome: "Abdominal supra curto"),
-        Exercicio(nome: "Levantamento Terra"),
-        Exercicio(nome: "Prancha"),
-        Exercicio(nome: "Exercício 4"),
-        Exercicio(nome: "Exercício 5")
+    let exercises = [
+        Exercise(name: "Abdominal supra curto", imageName: "image"),
+        Exercise(name: "Levantamento Terra", imageName: "image"),
+        Exercise(name: "Prancha", imageName: "image"),
+        Exercise(name: "Giro Russo", imageName: "image"),
+        Exercise(name: "Superman Alternado", imageName: "image"),
+        Exercise(name: "Bom dia", imageName: "image"),
+        
     ]
     
     var body: some View {
-        Text("só pra ter alguma coisa aqui dentro")
+        List(exercises, id: \.self) { exercise in
+            NavigationLink(destination: ExerciseDetailView(exercise: exercise)) {
+                Text(exercise.name)
+            }
+        }.navigationTitle("Abdômen")
     }
     
 }

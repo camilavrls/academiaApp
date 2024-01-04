@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		860C2A0A2B477323009D06B1 /* ExerciseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860C2A092B477322009D06B1 /* ExerciseDetailView.swift */; };
 		86AD4B672B3CE5AF00BE204B /* AcademiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AD4B662B3CE5AF00BE204B /* AcademiaApp.swift */; };
 		86AD4B692B3CE5AF00BE204B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AD4B682B3CE5AF00BE204B /* ContentView.swift */; };
 		86AD4B6B2B3CE5B100BE204B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86AD4B6A2B3CE5B100BE204B /* Assets.xcassets */; };
@@ -15,9 +16,6 @@
 		86AD4B832B3CE5B100BE204B /* AcademiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AD4B822B3CE5B100BE204B /* AcademiaUITests.swift */; };
 		86AD4B852B3CE5B100BE204B /* AcademiaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AD4B842B3CE5B100BE204B /* AcademiaUITestsLaunchTests.swift */; };
 		86AD4B932B3CEA6F00BE204B /* AbdomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AD4B922B3CEA6F00BE204B /* AbdomeView.swift */; };
-		86AD4B952B3CEED800BE204B /* AbdsSupraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AD4B942B3CEED700BE204B /* AbdsSupraView.swift */; };
-		86AD4B972B3CEEE100BE204B /* TerraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AD4B962B3CEEE100BE204B /* TerraView.swift */; };
-		86AD4B992B3CEEEB00BE204B /* PranchaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AD4B982B3CEEEB00BE204B /* PranchaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		860C2A092B477322009D06B1 /* ExerciseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailView.swift; sourceTree = "<group>"; };
 		86AD4B632B3CE5AF00BE204B /* Academia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Academia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86AD4B662B3CE5AF00BE204B /* AcademiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademiaApp.swift; sourceTree = "<group>"; };
 		86AD4B682B3CE5AF00BE204B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,9 +49,6 @@
 		86AD4B822B3CE5B100BE204B /* AcademiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademiaUITests.swift; sourceTree = "<group>"; };
 		86AD4B842B3CE5B100BE204B /* AcademiaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademiaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		86AD4B922B3CEA6F00BE204B /* AbdomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbdomeView.swift; sourceTree = "<group>"; };
-		86AD4B942B3CEED700BE204B /* AbdsSupraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbdsSupraView.swift; sourceTree = "<group>"; };
-		86AD4B962B3CEEE100BE204B /* TerraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraView.swift; sourceTree = "<group>"; };
-		86AD4B982B3CEEEB00BE204B /* PranchaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PranchaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,9 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				86AD4B922B3CEA6F00BE204B /* AbdomeView.swift */,
-				86AD4B942B3CEED700BE204B /* AbdsSupraView.swift */,
-				86AD4B962B3CEEE100BE204B /* TerraView.swift */,
-				86AD4B982B3CEEEB00BE204B /* PranchaView.swift */,
+				860C2A092B477322009D06B1 /* ExerciseDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -280,10 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				86AD4B692B3CE5AF00BE204B /* ContentView.swift in Sources */,
-				86AD4B972B3CEEE100BE204B /* TerraView.swift in Sources */,
+				860C2A0A2B477323009D06B1 /* ExerciseDetailView.swift in Sources */,
 				86AD4B932B3CEA6F00BE204B /* AbdomeView.swift in Sources */,
-				86AD4B952B3CEED800BE204B /* AbdsSupraView.swift in Sources */,
-				86AD4B992B3CEEEB00BE204B /* PranchaView.swift in Sources */,
 				86AD4B672B3CE5AF00BE204B /* AcademiaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

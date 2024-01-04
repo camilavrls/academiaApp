@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                NavigationLink(destination: Text("Detalhes do Item 1")) {
+                NavigationLink(destination: AbdomeView()) {
                     Text("Abdômen")
                 }
                 NavigationLink(destination: Text("Detalhes do Item 2")) {
